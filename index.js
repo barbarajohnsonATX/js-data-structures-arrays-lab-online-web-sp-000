@@ -1,5 +1,6 @@
 // Write your solution here
 let drivers = ["Milo", "Otis", "Garfield"];
+<<<<<<< HEAD
 
 function destructivelyAppendDriver(name)
 {
@@ -34,10 +35,12 @@ function prependDriver(name)
 
 function removeLastDriver()
 {
-   return drivers.slice(0, drivers.length-1);
+   return drivers.slice(0, -1);
 }
   
 function removeFirstDriver()
 {
   return drivers.slice(1);
 }
+=======
+>>>>>>> 806aac2de198daa104779639ddc33d3596341503
